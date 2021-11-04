@@ -15,3 +15,7 @@ rojo serve
 ```
 
 For more help, check out [the Rojo documentation](https://rojo.space/docs).
+
+### 참고 사이트
+https://developer.roblox.com/en-us/onboarding?category=studio-basics
+https://github.com/rojo-rbx/rojo
