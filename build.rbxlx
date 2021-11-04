@@ -74,27 +74,27 @@
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="CFrame">
-					<X>-22.5605869</X>
-					<Y>10.7469273</Y>
-					<Z>0.936586142</Z>
-					<R00>0.0279057994</R00>
-					<R01>0.579066813</R01>
-					<R02>-0.814802349</R02>
-					<R10>9.31322575e-10</R10>
-					<R11>0.815119803</R11>
-					<R12>0.579292417</R12>
-					<R20>0.999610543</R20>
-					<R21>-0.0161656179</R21>
-					<R22>0.0227465685</R22>
+					<X>-28.372406</X>
+					<Y>5.70985413</Y>
+					<Z>0.330515385</Z>
+					<R00>0.139154002</R00>
+					<R01>0.407522798</R01>
+					<R02>-0.902530551</R02>
+					<R10>-0</R10>
+					<R11>0.911397815</R11>
+					<R12>0.41152662</R12>
+					<R20>0.990270793</R20>
+					<R21>-0.057265576</R21>
+					<R22>0.126824647</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
 				<float name="FieldOfView">70</float>
 				<token name="FieldOfViewMode">0</token>
 				<CoordinateFrame name="Focus">
-					<X>-20.9309826</X>
-					<Y>9.58834267</Y>
-					<Z>0.891093016</Z>
+					<X>-26.5673447</X>
+					<Y>4.88680077</Y>
+					<Z>0.0768660605</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -1111,6 +1111,132 @@ lava.Touched:Connect(killPlayer)]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 					<UniqueId name="UniqueId">436c754a8dca57c2019578280005fe08</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX6FA6504EA78945EABD7EC3C2604DE9F5">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>-9</X>
+					<Y>0.5</Y>
+					<Z>0.416661739</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">FadingPlatform</string>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<UniqueId name="UniqueId">436c754a8dca57c2019578280007c82e</UniqueId>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>12</X>
+					<Y>1</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Script" referent="RBXC7D1EFE91ECD47B8936001AA0D867AC1">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">FadeOnTouch</string>
+					<string name="ScriptGuid">{7D3BE7D1-C787-48E9-A36E-F1BA02A7D197}</string>
+					<ProtectedString name="Source"><![CDATA[local platform=script.Parent
+
+local isTouched=false
+
+local function fade()
+	if not isTouched then
+		isTouched=true
+		for count=1, 10 do
+			platform.Transparency=count/10
+			wait(0.1)
+		end
+		platform.CanCollide=false
+		wait(3)
+		platform.CanCollide=true
+		platform.Transparency=0
+		isTouched=false
+	end
+end
+
+platform.Touched:Connect(fade)]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">436c754a8dca57c2019578280007d84c</UniqueId>
 				</Properties>
 			</Item>
 		</Item>
